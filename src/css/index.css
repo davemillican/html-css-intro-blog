@@ -1,0 +1,86 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+.clear {
+	clear:both;
+}
+
+#header {
+	
+	background-image: url(../../images/skyscraper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	width: 100%;
+	
+}
+
+.srchbox {
+	width: 60px;
+	height: 30px;
+	display:block;
+}
+
+
+.icon {
+	position: absolute;
+	height: 80px;
+	border-radius: 50%;
+	width: 80px;
+	top: 360px;
+	left: 220px;
+	background: #ccc;
+}
+
+
+.free-block {
+	position: fixed;
+	left: 920px;
+	bottom: 100px;
+	border: 1px solid black;
+	border-right:transparent;
+	height: 70px;
+	width: 150px;
+}
+
+#left-doc {
+	position: absolute;
+	left: -250px;
+	width: 200px;
+	top: -15px;
+}
+
+.free-block > p {
+	margin-top: 3px;
+	margin-bottom: -10px;
+
+}
+
+.follow {
+	background-color: #59a0ca;
+	color: white;
+	position: relative;
+	left: 80px;
+	bottom: -30px;
+	height: 30px;
+	width: 70px;
+	font-size: .7em;
+}
+
+#middle-col {
+	position: relative;
+	margin: 0 auto;
+	height: 200px;
+	width: 400px;
+	top: 75px;
+}
+
+.class-pic {
+	width: 400px;
+	height: 150px;
+	
+}
